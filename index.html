@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- styles link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .dataTables_wrapper {
+        margin: 20px auto;
+        width: 1000px;
+      }
+      #example {
+        overflow-x: scroll;
+      }
+    </style>
+    <button id="addRow">Add new row</button>
+    <table id="example" class="display" style="width: 100%">
+      <thead>
+        <tr>
+          <th>Liners</th>
+          <th>Sailing Date</th>
+          <th>Transit Days</th>
+          <th>Free Days</th>
+          <th>Cargo Type</th>
+          <th>20GP</th>
+          <th>40GP</th>
+          <th>Total Cost</th>
+        </tr>
+      </thead>
+      <tbody class="tableBody">
+        <tr>
+          <td>Maersk</td>
+          <td>22 Aug 2022</td>
+          <td>22 days</td>
+          <td>41 Days</td>
+          <td>FAK</td>
+          <td>$ 290.8</td>
+          <td>$ 312.9</td>
+          <td>$ 908.9</td>
+        </tr>
+        <tr>
+          <td>Evergreen</td>
+          <td>21 Aug 2022</td>
+          <td>18 days</td>
+          <td>41 Days</td>
+          <td>FAK</td>
+          <td>$ 220.8</td>
+          <td>$ 812.9</td>
+          <td>$ 1028.9</td>
+        </tr>
+        <tr>
+          <td>OOCL</td>
+          <td>09 Aug 2022</td>
+          <td>23 days</td>
+          <td>30 Days</td>
+          <td>FAK</td>
+          <td>$ 190.8</td>
+          <td>$ 312.9</td>
+          <td>$ 1008.9</td>
+        </tr>
+        <tr>
+          <td>CMA CG</td>
+          <td>11 Sep 2022</td>
+          <td>12 days</td>
+          <td>32 Days</td>
+          <td>FAK</td>
+          <td>$ 90.8</td>
+          <td>$ 12.9</td>
+          <td>$ 1908.9</td>
+        </tr>
+        <tr>
+          <td>One Quote</td>
+          <td>07 Jun 2022</td>
+          <td>20 days</td>
+          <td>21 Days</td>
+          <td>FAK</td>
+          <td>$ 900.8</td>
+          <td>$ 712.9</td>
+          <td>$ 1008.9</td>
+        </tr>
+        <tr>
+          <td>Maersk</td>
+          <td>16 Dec 2022</td>
+          <td>19 days</td>
+          <td>29 Days</td>
+          <td>FAK</td>
+          <td>$ 190.8</td>
+          <td>$ 787.9</td>
+          <td>$ 2933.9</td>
+        </tr>
+        <tr>
+          <td>Maersk</td>
+          <td>16 Dec 2022</td>
+          <td>19 days</td>
+          <td>29 Days</td>
+          <td>FAK</td>
+          <td>$ 190.8</td>
+          <td>$ 787.9</td>
+          <td>$ 2933.9</td>
+        </tr>
+        <tr>
+          <td>Maersk</td>
+          <td>16 Dec 2022</td>
+          <td>19 days</td>
+          <td>29 Days</td>
+          <td>FAK</td>
+          <td>$ 190.8</td>
+          <td>$ 787.9</td>
+          <td>$ 2933.9</td>
+        </tr>
+        <tr>
+          <td>Maersk</td>
+          <td>16 Dec 2022</td>
+          <td>19 days</td>
+          <td>29 Days</td>
+          <td>FAK</td>
+          <td>$ 190.8</td>
+          <td>$ 787.9</td>
+          <td>$ 2933.9</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+    <!-- axios  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./datatable.js"></script>
+    <!-- <script src="./axios.js"></script> -->
+  </body>
+</html>
